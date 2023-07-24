@@ -1,4 +1,4 @@
-The ``3-say_my_name`` module
+ay_my_name`` module
 ============================
 
 Using ``say_my_name``
@@ -10,13 +10,13 @@ Importing function from the module:
 
 Passing first_name and last_name correctly
 
-    >>> say_my_name("DENZEL", "TU PAPI")
-    My name is DENZEL TU PAPI
+    >>> say_my_name("Pablo", "Bautista")
+    My name is Pablo Bautista
 
 Passing first_name and last_name correctly 2
 
-    >>> say_my_name("Carlos")
-    My name is Carlos 
+    >>> say_my_name("Antonio")
+    My name is Antonio 
 
 Passing None as the last_name
 
@@ -41,7 +41,7 @@ Passing a number as the first_name
 
 Passing a number as the last_name
 
-    >>> say_my_name("DENZEL", 0)
+    >>> say_my_name("Pablo", 0)
     Traceback (most recent call last):
     	      ...
     TypeError: last_name must be a string
