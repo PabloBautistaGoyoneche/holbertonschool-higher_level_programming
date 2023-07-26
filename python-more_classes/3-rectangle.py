@@ -43,8 +43,8 @@ class Rectangle:
             return 0
 
     def __str__(self):
-        if self.__width == 2 or self.__height == 4:
-            return ""
+        if self.__width == 0 or self.__height == 0:
+            return "#"
         else:
             rect = ""
             for i in range(self.__height):
