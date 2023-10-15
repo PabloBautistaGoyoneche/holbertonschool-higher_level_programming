@@ -5,15 +5,15 @@ document.addEventListener("DOMContentLoaded", function() {
     // Select list <ul> with class "my_list"
     var myList = document.querySelector(".my_list");
 
-    // Agrega un evento de clic al elemento "add_item"
+    // Add a click event to the "add_item" element
     addItemElement.addEventListener("click", function() {
-      // Crea un nuevo elemento <li>
+      // Create a new <li> element
       var newItem = document.createElement("li");
 
-      // Asigna el contenido "Item" al nuevo elemento <li>
+      // Assigns the "Item" content to the new <li> element
       newItem.textContent = "Item";
 
-      // Agrega el nuevo elemento <li> a la lista <ul>
+      // Adds the new element <li> to the list <ul>
       myList.appendChild(newItem);
     });
   });
